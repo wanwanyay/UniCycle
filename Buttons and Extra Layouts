@@ -1,0 +1,36 @@
+//Button Background
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#FF5722"/> <!-- Button background color when pressed -->
+            <corners android:radius="80dp"/>
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#1A237E"/> <!-- Default button background color -->
+            <corners android:radius="80dp"/>
+        </shape>
+    </item>
+</selector>
+
+
+//Edit_Text Background [inputs]
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+        <solid android:color="#FFFFFF"/>
+        <corners android:radius="10dp"/>
+        <stroke android:width="1dp" android:color="#DDDDDD"/>
+</shape>
+
+
+//rounded corner background for button
+<?xml version="1.0" encoding="utf-8"?>
+
+    <shape xmlns:android="http://schemas.android.com/apk/res/android">
+        <solid android:color="#f1f3f6"/>
+        <corners android:radius="12dp"/>
+        <padding android:left="16dp" android:top="16dp" android:right="16dp" android:bottom="16dp"/>
+    </shape>
+
