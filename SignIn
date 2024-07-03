@@ -1,6 +1,8 @@
 //this is the layout xml file for the sign in page 
 // can be implemented for forgot password pages as well
-
+//some of the drawable files have to be changed 
+// the images have to be put in the drawable file
+// the background layout files have to be put in the res, drawable file
 
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
